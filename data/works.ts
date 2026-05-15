@@ -39,7 +39,7 @@ export const works: Work[] = [
     title: "Graphic & Promotion",
     tag: "Graphic",
     tagColor: "#fb923c",
-    desc: "チラシ、ポスター、POP、冊子、名刺など、販促に必要な紙媒体を幅広く制作。",
+    desc: "チラシ、ポスター、POP、冊子、名刺など、販促に必要な紙媒体を幅広く制作。　　　　　　　　　　　　　　　　　",
     meta: "Poster / Flyer / POP / DTP",
     year: "2010 — 2018",
     client: "小売・飲食・サービス業",
