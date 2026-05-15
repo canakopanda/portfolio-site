@@ -4,7 +4,11 @@
       "Read(//opt/**)",
       "Read(//usr/local/**)",
       "Bash(npm --version)",
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --no-import-alias --yes)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --no-import-alias --yes)",
+      "Bash(npm install *)",
+      "Bash(mkdir -p /Users/tokitoukanae/Desktop/portfolio-site/data /Users/tokitoukanae/Desktop/portfolio-site/components /Users/tokitoukanae/Desktop/portfolio-site/app/works/\\\\[slug\\\\])",
+      "Bash(mkdir -p /Users/tokitoukanae/Desktop/portfolio-site/.claude)",
+      "mcp__Claude_Preview__preview_start"
     ]
   }
 }
