@@ -36,10 +36,13 @@ export const works: Work[] = [
     tools: ["Photoshop", "Illustrator", "HTML", "CSS"],
     images: ["/works/ec_001.jpg"],
     subImages: [
-      { label: "Photoshop制作" },
-      { label: "AI使用画像" },
-      { label: "ABテスト用画像" },
-      { label: "" },
+      { label: "Photoshop制作", src: "/works/ec-002.jpg" },
+      { label: "Photoshop制作", src: "/works/ec-003.jpg" },
+      { label: "Photoshop制作", src: "/works/ec-004.jpg" },
+      { label: "Photoshop制作", src: "/works/ec-005.jpg" },
+      { label: "Photoshop制作", src: "/works/ec-006.jpg" },
+      { label: "Photoshop制作", src: "/works/ec-007.jpg" },
+      { label: "Photoshop制作", src: "/works/ec-008.jpg" },
     ],
   },
   {
