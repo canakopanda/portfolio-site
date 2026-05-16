@@ -12,6 +12,8 @@ export type Work = {
   process: string;
   result: string;
   tools: string[];
+  images?: string[];
+  subImages?: { label: string; src?: string }[];
 };
 
 export const works: Work[] = [
@@ -30,9 +32,15 @@ export const works: Work[] = [
     process:
       "クライアントの販売目標や訴求ポイントをヒアリングし、視線誘導とCTAの配置を意識した設計を心がけました。テンプレートと素材のライブラリ化により品質と速度の両立を実現しました。",
     result:
-      "毎月100点以上のクリエイティブを安定納品。バナーのクリック率改善やコンバージョン向上に継続的に貢献しました。",
+      "毎月100点以上のクリエイティブを安定納品。バナーのクリック率改善やLP経由のコンバージョン向上に継続的に貢献しました。",
     tools: ["Photoshop", "Illustrator", "HTML", "CSS"],
     images: ["/works/ec_001.jpg"],
+    subImages: [
+      { label: "Photoshop制作" },
+      { label: "AI使用画像" },
+      { label: "ABテスト用画像" },
+      { label: "" },
+    ],
   },
   {
     slug: "graphic-promotion",
@@ -45,7 +53,7 @@ export const works: Work[] = [
     year: "2010 — 2018",
     client: "小売・飲食・サービス業",
     overview:
-      "店舗販促に必要な紙媒体を幅広く担当。A4チラシからB0ポスター、店頭POP、会社案内冊子まで、用途とターゲットに合わせたビジュアルを提供しました。",
+      "有限会社アップワード在籍中、店舗販促に必要な紙媒体を幅広く担当。A4チラシからB0ポスター、店頭POP、会社案内冊子まで、用途とターゲットに合わせたビジュアルを提供しました。",
     process:
       "印刷仕様の理解とカラーマネジメントを徹底し、データ精度を高めることを意識しました。デザインの前に目的と受け手を整理し、「誰に、何を伝えるか」をシンプルに設計しました。",
     result:
