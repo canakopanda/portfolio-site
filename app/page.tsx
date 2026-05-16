@@ -169,7 +169,7 @@ export default function Portfolio() {
 
         {/* ── Works ── */}
         <section id="works" className="mx-auto max-w-7xl px-6 py-28 md:px-10">
-          <SectionTitle label="Works" title="制作物。" />
+          <SectionTitle label="Works" title="制作実績" />
           <div className="grid gap-5 md:grid-cols-2">
             {works.map((work, i) => (
               <motion.div
