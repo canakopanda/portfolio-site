@@ -39,7 +39,7 @@ export const works: Work[] = [
     title: "Graphic & Promotion",
     tag: "Graphic",
     tagColor: "#fb923c",
-    desc: "チラシ、ポスター、POP、冊子、名刺など、販促に必要な紙媒体を幅広く制作。　　　　　　　　　　　　　　　　　",
+    desc: "新聞折込広告、ポスター、POP、冊子、名刺など、販促に必要な紙媒体を幅広く制作。　　　　　　　　　　　　　　　　　",
     meta: "Poster / Flyer / POP / DTP",
     year: "2010 — 2018",
     client: "小売・飲食・サービス業",
@@ -48,7 +48,7 @@ export const works: Work[] = [
     process:
       "印刷仕様の理解とカラーマネジメントを徹底し、データ精度を高めることを意識しました。デザインの前に目的と受け手を整理し、「誰に、何を伝えるか」をシンプルに設計しました。",
     result:
-      "年間100点以上の印刷物を安定納品。クライアントからの継続依頼率の高さが成果の指標となり、口コミによる紹介案件も生まれました。",
+      "紙媒体のデザインからWeb制作、動画撮影・編集まで、幅広いビジュアル制作に携わってきました。",
     tools: ["Illustrator", "Photoshop", "InDesign"],
   },
   {
