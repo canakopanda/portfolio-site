@@ -295,7 +295,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* ── Contact ── */}
+        {/* ── Contact
         <section id="contact" className="mx-auto max-w-7xl px-6 py-28 md:px-10">
           <div className="rounded-[2.5rem] bg-zinc-950 p-8 text-white md:p-14">
             <p className="mb-6 text-xs font-bold uppercase tracking-[0.35em] text-lime-400">
@@ -319,6 +319,7 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
+          ── */}
 
         {/* ── Footer ── */}
         <footer className="mx-auto max-w-7xl border-t border-zinc-200 px-6 py-8 md:px-10">
