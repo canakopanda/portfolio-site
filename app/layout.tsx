@@ -8,7 +8,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Kana TK — Designer Portfolio",
+  title: "Kanae Tokitou — Designer Portfolio",
   description:
     "Web・グラフィック・販促物まで幅広く制作するデザイナーのポートフォリオサイト。",
 };
