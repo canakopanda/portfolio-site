@@ -79,14 +79,14 @@ export const works: Work[] = [
     desc: "新聞折込広告、ポスター、サイネージ広告、POP、冊子、名刺など、販促に必要な紙媒体を幅広く制作。　　　　　　　　　　　　　　　　　",
     meta: "Poster / Flyer / POP / DTP",
     year: "2010 — 2018",
-    client: "小売・飲食・サービス業",
+    client: "",
     overview:
-      "有限会社アップワード在籍中、店舗販促に必要な紙媒体を幅広く担当。A4チラシからB0ポスター、店頭POP、会社案内冊子まで、用途とターゲットに合わせたビジュアルを提供しました。",
+      "映像制作、広告代理店在籍中、店舗販促に必要な紙媒体を幅広く担当。A4チラシからB0ポスター、店頭POP、会社案内冊子まで、用途とターゲットに合わせたビジュアルを提供しました。",
     process:
       "印刷仕様の理解とカラーマネジメントを徹底し、データ精度を高めることを意識しました。デザインの前に目的と受け手を整理し、「誰に、何を伝えるか」をシンプルに設計しました。",
     result:
       "紙媒体のデザインからWeb制作、動画撮影・編集まで、幅広いビジュアル制作に携わってきました。",
-    tools: ["Illustrator", "Photoshop", "InDesign"],
+    tools: ["Illustrator", "Photoshop", "Adobe Dreamweaver"],
     images: ["/works/logo-003.jpg"],
     subImages: [
       { label: "ロゴデザイン", src: "/works/logo-001.jpg" },
@@ -120,6 +120,16 @@ export const works: Work[] = [
     result:
       "複数の商品が実店舗での展開に至り、リピート発注につながるデザインを実現しました。パッケージのビジュアルが売上貢献に直結した事例もあります。",
     tools: ["Illustrator", "Photoshop"],
+    images: ["/works/sh_main.jpg"],
+    subImages: [
+      { label: "ポスター", src: "/works/sh_001.jpg" },
+      { label: "ポスター", src: "/works/sh_002.jpg" },
+      { label: "ポスター", src: "/works/sh_003.jpg" },
+      { label: "ポスター", src: "/works/sh_004.jpg" },
+      { label: "ポスター", src: "/works/sh_005.jpg" },
+      { label: "ポスター", src: "/works/sh_006.jpg" },
+      { label: "ポスター", src: "/works/sh_007.jpg" },
+    ],
   },
   {
     slug: "movie-direction",
