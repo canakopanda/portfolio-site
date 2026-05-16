@@ -324,7 +324,7 @@ export default function Portfolio() {
         <footer className="mx-auto max-w-7xl border-t border-zinc-200 px-6 py-8 md:px-10">
           <div className="flex items-center justify-between">
             <p className="text-xs text-zinc-400">
-              © 2025 Kana TK. All rights reserved.
+              © 2026 Kana TK. All rights reserved.
             </p>
             <p className="text-xs text-zinc-400">Designer Portfolio</p>
           </div>
