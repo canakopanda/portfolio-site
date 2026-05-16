@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft, ArrowUpRight, Image as LucideImage } from "lucide-react";
 import { works, getWorkBySlug } from "@/data/works";
 
@@ -74,38 +75,64 @@ export default async function WorkDetailPage({
         <div className="flex flex-col gap-4">
           {/* メイン画像 */}
           <div
-            className="relative flex aspect-[16/9] items-center justify-center overflow-hidden rounded-[2rem]"
-            style={{ backgroundColor: work.tagColor + "14" }}
+            className="relative aspect-[16/9] overflow-hidden rounded-[2rem]"
+            style={!work.images?.[0] ? { backgroundColor: work.tagColor + "14" } : {}}
           >
-            <span
-              className="select-none text-[12rem] font-black leading-none"
-              style={{ color: work.tagColor + "20" }}
-            >
-              {work.num}
-            </span>
-            <div className="absolute bottom-5 left-5 flex items-center gap-2 rounded-full bg-white/70 px-3 py-1.5 text-xs font-semibold text-zinc-400 backdrop-blur-sm">
-              <LucideImage size={11} />
-              メイン画像
-            </div>
+            {work.images?.[0] ? (
+              <Image
+                src={work.images[0]}
+                alt={work.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            ) : (
+              <>
+                <span
+                  className="absolute inset-0 flex items-center justify-center select-none text-[12rem] font-black leading-none"
+                  style={{ color: work.tagColor + "20" }}
+                >
+                  {work.num}
+                </span>
+                <div className="absolute bottom-5 left-5 flex items-center gap-2 rounded-full bg-white/70 px-3 py-1.5 text-xs font-semibold text-zinc-400 backdrop-blur-sm">
+                  <LucideImage size={11} />
+                  メイン画像
+                </div>
+              </>
+            )}
           </div>
 
-          {/* サブ画像 × 2 */}
-          <div className="grid grid-cols-2 gap-4">
-            {[1, 2].map((n) => (
-              <div
-                key={n}
-                className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-[1.5rem]"
-                style={{ backgroundColor: work.tagColor + "0d" }}
-              >
-                <div className="flex flex-col items-center gap-2">
-                  <LucideImage size={22} className="text-zinc-300" />
-                  <p className="text-xs font-semibold text-zinc-300">
-                    作品画像 {n}
+          {/* サブ画像 4カラム */}
+          {work.subImages && (
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+            {work.subImages.map((sub, idx) => (
+              <div key={idx} className="flex flex-col gap-2">
+                {sub.label && (
+                  <p className="text-xs font-bold uppercase tracking-widest text-zinc-400">
+                    {sub.label}
                   </p>
+                )}
+                <div
+                  className="relative aspect-[4/3] overflow-hidden rounded-[1.5rem]"
+                  style={!sub.src ? { backgroundColor: work.tagColor + "0d" } : {}}
+                >
+                  {sub.src ? (
+                    <Image
+                      src={sub.src}
+                      alt={sub.label || `${work.title} ${idx + 1}`}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-full flex-col items-center justify-center gap-2">
+                      <LucideImage size={18} className="text-zinc-300" />
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
           </div>
+          )}
         </div>
       </section>
 

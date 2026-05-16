@@ -8,7 +8,15 @@
       "Bash(npm install *)",
       "Bash(mkdir -p /Users/tokitoukanae/Desktop/portfolio-site/data /Users/tokitoukanae/Desktop/portfolio-site/components /Users/tokitoukanae/Desktop/portfolio-site/app/works/\\\\[slug\\\\])",
       "Bash(mkdir -p /Users/tokitoukanae/Desktop/portfolio-site/.claude)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(ls ~/.ssh/*.pub 2>/dev/null || echo \"SSHキーなし\")",
+      "Bash(gh --version)",
+      "Bash(git add *)",
+      "Bash(git rebase *)",
+      "Bash(GIT_EDITOR=true git rebase --continue)"
     ]
   }
 }

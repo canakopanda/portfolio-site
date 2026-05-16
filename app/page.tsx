@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight, Mail, MapPin, Image as LucideImage } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import { works } from "@/data/works";
@@ -186,19 +187,30 @@ export default function Portfolio() {
                 >
                   {/* 作品画像スペース */}
                   <div
-                    className="relative flex aspect-[16/10] items-center justify-center overflow-hidden"
-                    style={{ backgroundColor: work.tagColor + "14" }}
+                    className="relative aspect-[16/10] overflow-hidden"
+                    style={!work.images?.[0] ? { backgroundColor: work.tagColor + "14" } : {}}
                   >
-                    <span
-                      className="select-none text-[7rem] font-black leading-none"
-                      style={{ color: work.tagColor + "28" }}
-                    >
-                      {work.num}
-                    </span>
-                    <div className="absolute bottom-4 left-4 flex items-center gap-1.5 rounded-full bg-white/70 px-3 py-1.5 text-xs font-semibold text-zinc-400 backdrop-blur-sm">
-                      <LucideImage size={11} />
-                      作品画像
-                    </div>
+                    {work.images?.[0] ? (
+                      <Image
+                        src={work.images[0]}
+                        alt={work.title}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <>
+                        <span
+                          className="absolute inset-0 flex items-center justify-center select-none text-[7rem] font-black leading-none"
+                          style={{ color: work.tagColor + "28" }}
+                        >
+                          {work.num}
+                        </span>
+                        <div className="absolute bottom-4 left-4 flex items-center gap-1.5 rounded-full bg-white/70 px-3 py-1.5 text-xs font-semibold text-zinc-400 backdrop-blur-sm">
+                          <LucideImage size={11} />
+                          作品画像
+                        </div>
+                      </>
+                    )}
                   </div>
 
                   {/* カード内容 */}
