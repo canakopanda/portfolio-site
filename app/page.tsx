@@ -188,9 +188,18 @@ export default function Portfolio() {
                   {/* 作品画像スペース */}
                   <div
                     className="relative aspect-[16/10] overflow-hidden"
-                    style={!work.images?.[0] ? { backgroundColor: work.tagColor + "14" } : {}}
+                    style={!work.images?.[0] && !work.video ? { backgroundColor: work.tagColor + "14" } : {}}
                   >
-                    {work.images?.[0] ? (
+                    {work.video ? (
+                      <video
+                        src={work.video}
+                        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                      />
+                    ) : work.images?.[0] ? (
                       <Image
                         src={work.images[0]}
                         alt={work.title}
