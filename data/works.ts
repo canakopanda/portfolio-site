@@ -21,7 +21,7 @@ export const works: Work[] = [
     title: "EC / Web Creative",
     tag: "Web Design",
     tagColor: "#a3e635",
-    desc: "ECサイトのバナー、LP、LINEリッチメニューなど、目的に合わせたデジタルクリエイティブを制作。",
+    desc: "ECサイトのバナー、LINEリッチメニューなど、目的に合わせたデジタルクリエイティブを制作。",
     meta: "Photoshop / Web / Banner / LINE",
     year: "2018 — 2025",
     client: "ECサイト運営企業",
