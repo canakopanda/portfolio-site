@@ -114,14 +114,14 @@ export default async function WorkDetailPage({
                 )}
                 <div
                   className="relative aspect-square overflow-hidden rounded-[1.5rem]"
-                  style={!sub.src ? { backgroundColor: work.tagColor + "0d" } : { backgroundColor: (sub.label === "AI使用" || sub.label === "ABテスト用" || sub.label === "ECサイトPhotoshop,Illustrator使用") ? "#f4f4f0" : undefined }}
+                  style={!sub.src ? { backgroundColor: work.tagColor + "0d" } : { backgroundColor: "#f4f4f0" }}
                 >
                   {sub.src ? (
                     <Image
                       src={sub.src}
                       alt={sub.label || `${work.title} ${idx + 1}`}
                       fill
-                      className={(sub.label === "AI使用" || sub.label === "ABテスト用" || sub.label === "ECサイトPhotoshop,Illustrator使用") ? "object-contain p-2" : "object-cover"}
+                      className="object-contain p-2"
                     />
                   ) : (
                     <div className="flex h-full flex-col items-center justify-center gap-2">
