@@ -17,7 +17,7 @@ export async function generateMetadata({
   const work = getWorkBySlug(slug);
   if (!work) return {};
   return {
-    title: `${work.title} — Kana TK`,
+    title: `${work.title} — Kanae Tokitou`,
     description: work.desc,
   };
 }
@@ -244,9 +244,9 @@ export default async function WorkDetailPage({
             href="/"
             className="text-xs text-zinc-400 transition-colors hover:text-zinc-950"
           >
-            ← Kana TK Portfolio
+            ← Kanae Tokitou Portfolio
           </Link>
-          <p className="text-xs text-zinc-400">© 2025 Kana TK</p>
+          <p className="text-xs text-zinc-400">© 2025 Kanae Tokitou</p>
         </div>
       </footer>
     </main>

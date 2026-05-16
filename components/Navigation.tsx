@@ -25,7 +25,7 @@ export default function Navigation() {
           href="/"
           className="text-sm font-semibold tracking-tight text-zinc-950"
         >
-          Kana TK
+          Kanae Tokitou
         </Link>
         <div className="hidden items-center gap-8 md:flex">
           {(

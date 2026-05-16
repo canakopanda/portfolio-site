@@ -47,7 +47,7 @@ export default function Portfolio() {
           <div className="flex flex-col justify-between lg:min-h-[68vh]">
             <div className="flex items-center justify-between border-t border-zinc-900 pt-4">
               <span className="text-xs font-semibold uppercase tracking-widest">
-                Kana TK
+                Kanae Tokitou
               </span>
               <span className="text-xs uppercase tracking-widest text-zinc-400">
                 Designer Portfolio
@@ -98,10 +98,7 @@ export default function Portfolio() {
                   <p className="text-xs uppercase tracking-widest text-zinc-400">
                     Designer
                   </p>
-                  <p className="mt-1 font-semibold">Kana TK</p>
-                </div>
-                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-lime-400 text-lg font-bold">
-                  KT
+                  <p className="mt-1 font-semibold">Kanae Tokitou</p>
                 </div>
               </div>
 
@@ -296,7 +293,7 @@ export default function Portfolio() {
         <footer className="mx-auto max-w-7xl border-t border-zinc-200 px-6 py-8 md:px-10">
           <div className="flex items-center justify-between">
             <p className="text-xs text-zinc-400">
-              © 2026 Kana TK. All rights reserved.
+              © 2026 Kanae Tokitou. All rights reserved.
             </p>
             <p className="text-xs text-zinc-400">Designer Portfolio</p>
           </div>

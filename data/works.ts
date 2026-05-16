@@ -139,7 +139,7 @@ export const works: Work[] = [
     title: "Movie & Direction",
     tag: "Direction",
     tagColor: "#38bdf8",
-    desc: "番組テロップ、ブライダル映像、イベント進行など、静止画にとどまらない表現も経験。",
+    desc: "番組テロップ、ブライダル映像、イベント進行など、静止画以外の表現も経験。",
     meta: "Movie / Telop / Event",
     year: "2007 — 2018",
     client: "",
