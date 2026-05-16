@@ -152,6 +152,9 @@ export const works: Work[] = [
     tools: ["Premiere Pro", "After Effects", "Photoshop", "EDIUS"],
     video: "/works/driver.mp4",
     hideYear: true,
+    subImages: [
+      { label: "イラスト、動画制作", src: "/works/itouunsousama.png" },
+    ],
   },
 ];
 
