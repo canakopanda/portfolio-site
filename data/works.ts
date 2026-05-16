@@ -28,7 +28,7 @@ export const works: Work[] = [
     desc: "ECサイトのバナー、LINEリッチメニューなど、目的に合わせたデジタルクリエイティブを制作。",
     meta: "Photoshop / Web / Banner / LINE",
     year: "2018 — 2025",
-    client: "事業運営支援会社",
+    client: "",
     overview:
       "マーケティング企業在籍中、BtoB BtoC向けのデジタルクリエイティブを担当。季節ごとのキャンペーンバナー、LINEリッチメニューの設計まで、購買率向上・来店促進を目的とした販促ビジュアル制作を行ってきました。",
     process:
