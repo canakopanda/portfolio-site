@@ -16,17 +16,17 @@ const skillGroups = [
 const careers = [
   {
     year: "2018 — 2025",
-    company: "GMOコマース株式会社",
+    company: "EC支援事業会社",
     role: "In-house Web Designer",
   },
   {
     year: "2010 — 2018",
-    company: "有限会社アップワード",
-    role: "Web / Graphic Designer",
+    company: "映像、広告代理店",
+    role: "Web / Graphic Designer　/ video creator",
   },
   {
     year: "2007 — 2009",
-    company: "さつま恵比寿堂",
+    company: "焼酎通信販売会社",
     role: "Graphic Designer",
   },
 ];
