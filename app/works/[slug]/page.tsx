@@ -113,7 +113,7 @@ export default async function WorkDetailPage({
                   </p>
                 )}
                 <div
-                  className="relative aspect-[4/3] overflow-hidden rounded-[1.5rem]"
+                  className="relative aspect-square overflow-hidden rounded-[1.5rem]"
                   style={!sub.src ? { backgroundColor: work.tagColor + "0d" } : {}}
                 >
                   {sub.src ? (
