@@ -87,6 +87,21 @@ export const works: Work[] = [
     result:
       "紙媒体のデザインからWeb制作、動画撮影・編集まで、幅広いビジュアル制作に携わってきました。",
     tools: ["Illustrator", "Photoshop", "InDesign"],
+    images: ["/works/logo-003.jpg"],
+    subImages: [
+      { label: "ロゴデザイン", src: "/works/logo-001.jpg" },
+      { label: "ロゴデザイン", src: "/works/logo-002.jpg" },
+      { label: "ロゴデザイン", src: "/works/logo-003.jpg" },
+      { label: "ロゴデザイン", src: "/works/logo-004.jpg" },
+      { label: "ロゴデザイン", src: "/works/logo-005.jpg" },
+      { label: "新聞折込チラシ", src: "/works/chirashi-001.jpg" },
+      { label: "新聞折込チラシ", src: "/works/chirashi-002.jpg" },
+      { label: "新聞折込チラシ", src: "/works/chirashi-003.jpg" },
+      { label: "新聞折込チラシ", src: "/works/chirashi-004.jpg" },
+      { label: "ノベルティ", src: "/works/utiwa-001.jpg" },
+      { label: "その他", src: "/works/sonota.jpg" },
+      { label: "ホームページ", src: "/works/hp-001.png" },
+    ],
   },
   {
     slug: "private-label-design",
