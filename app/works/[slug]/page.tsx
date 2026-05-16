@@ -59,7 +59,7 @@ export default async function WorkDetailPage({
             >
               {work.tag}
             </span>
-            <span className="text-sm text-zinc-400">{work.year}</span>
+            {!work.hideYear && <span className="text-sm text-zinc-400">{work.year}</span>}
           </div>
           <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">
             {work.title}
