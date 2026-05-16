@@ -302,7 +302,7 @@ export default function Portfolio() {
               Contact
             </p>
             <h2 className="max-w-2xl text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              一緒に、伝わるデザインをつくりましょう。
+              <!--  -->
             </h2>
             <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
               <a
