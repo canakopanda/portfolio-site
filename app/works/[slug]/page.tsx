@@ -246,7 +246,7 @@ export default async function WorkDetailPage({
           >
             ← Kanae Tokitou Portfolio
           </Link>
-          <p className="text-xs text-zinc-400">© 2025 Kanae Tokitou</p>
+          <p className="text-xs text-zinc-400">© 2026 Kanae Tokitou. All rights reserved.</p>
         </div>
       </footer>
     </main>
