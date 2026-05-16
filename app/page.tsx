@@ -8,10 +8,10 @@ import Navigation from "@/components/Navigation";
 import { works } from "@/data/works";
 
 const skillGroups = [
-  { category: "Web", items: ["Web Design", "Banner", "LP", "LINE Rich Menu"] },
+  { category: "Web", items: ["Banner", "LP", "SNS"] },
   { category: "Print", items: ["Graphic Design", "DTP", "Poster", "Flyer"] },
-  { category: "Tool", items: ["Photoshop", "Illustrator", "InDesign"] },
-  { category: "Other", items: ["Photo Retouch", "Direction", "Package"] },
+  { category: "Tool", items: ["Photoshop", "Illustrator", "After Effects", "Premiere", "Firefly"] },
+  { category: "Other", items: ["Slack", "Notion", "ChatGPT", "Claude"] },
 ];
 
 const careers = [
