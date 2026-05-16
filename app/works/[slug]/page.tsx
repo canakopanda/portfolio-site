@@ -73,12 +73,21 @@ export default async function WorkDetailPage({
       {/* Gallery */}
       <section className="mx-auto max-w-7xl px-6 pb-8 md:px-10">
         <div className="flex flex-col gap-4">
-          {/* メイン画像 */}
+          {/* メイン画像 / 動画 */}
           <div
             className="relative aspect-[16/9] overflow-hidden rounded-[2rem]"
-            style={!work.images?.[0] ? { backgroundColor: work.tagColor + "14" } : {}}
+            style={!work.images?.[0] && !work.video ? { backgroundColor: work.tagColor + "14" } : {}}
           >
-            {work.images?.[0] ? (
+            {work.video ? (
+              <video
+                src={work.video}
+                className="h-full w-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            ) : work.images?.[0] ? (
               <Image
                 src={work.images[0]}
                 alt={work.title}

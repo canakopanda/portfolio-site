@@ -13,6 +13,7 @@ export type Work = {
   result: string;
   tools: string[];
   images?: string[];
+  video?: string;
   subImages?: { label: string; src?: string }[];
 };
 
@@ -148,6 +149,7 @@ export const works: Work[] = [
     result:
       "ブライダル映像では感動体験を作り出すことへの責任と達成感を強く感じ、口コミによる紹介案件にもつながりました。",
     tools: ["Premiere Pro", "After Effects", "Photoshop"],
+    video: "/works/driver.mp4",
   },
 ];
 
