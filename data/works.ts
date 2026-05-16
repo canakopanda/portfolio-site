@@ -34,7 +34,7 @@ export const works: Work[] = [
     result:
       "毎月100点以上のクリエイティブを安定納品。バナーのクリック率改善やLP経由のコンバージョン向上に継続的に貢献しました。",
     tools: ["Photoshop", "Illustrator", "HTML", "CSS"],
-    images: ["/works/ec_001.jpg"],
+    images: ["public/works/ec_001.jpg"],
     subImages: [
       { label: "Photoshop制作" },
       { label: "AI使用画像" },
