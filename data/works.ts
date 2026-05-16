@@ -154,6 +154,9 @@ export const works: Work[] = [
     hideYear: true,
     subImages: [
       { label: "イラスト、動画制作", src: "/works/itouunsousama.png" },
+      { label: "ブライダル", src: "/works/end.jpg" },
+      { label: "ディレクション", src: "/works/event.jpg" },
+      { label: "プロジェクションマッピング", src: "/works/pro.jpg" },
     ],
   },
 ];
