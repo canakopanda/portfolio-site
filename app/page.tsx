@@ -247,7 +247,7 @@ export default function Portfolio() {
 
         {/* ── Skills ── */}
         <section id="skills" className="mx-auto max-w-7xl px-6 py-28 md:px-10">
-          <SectionTitle label="Skills" title="制作を支えるスキル。" />
+          <SectionTitle label="Skills" title="制作を支えるスキル" />
           <div className="rounded-[2rem] bg-zinc-950 p-8 md:p-12">
             <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
               {skillGroups.map((group) => (
@@ -270,57 +270,6 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
-
-        {/* ── Career ── */}
-        <section id="career" className="mx-auto max-w-7xl px-6 py-28 md:px-10">
-          <SectionTitle label="Career" title="デザインと制作の現場で。" />
-          <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm">
-            {careers.map((item, i) => (
-              <motion.div
-                key={item.company}
-                variants={fadeUp}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-40px" }}
-                transition={{ delay: i * 0.1 }}
-                className={`grid gap-2 p-8 md:grid-cols-[200px_1fr_1fr] md:items-center md:gap-6 ${
-                  i < careers.length - 1 ? "border-b border-zinc-100" : ""
-                }`}
-              >
-                <p className="text-sm font-bold text-lime-500">{item.year}</p>
-                <p className="font-semibold">{item.company}</p>
-                <p className="text-sm text-zinc-400">{item.role}</p>
-              </motion.div>
-            ))}
-          </div>
-        </section>
-        ── */}
-
-        {/* ── Contact
-        <section id="contact" className="mx-auto max-w-7xl px-6 py-28 md:px-10">
-          <div className="rounded-[2.5rem] bg-zinc-950 p-8 text-white md:p-14">
-            <p className="mb-6 text-xs font-bold uppercase tracking-[0.35em] text-lime-400">
-              Contact
-            </p>
-            <h2 className="max-w-2xl text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              <!--  -->
-            </h2>
-            <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
-              <a
-                href="mailto:your-email@example.com"
-                className="inline-flex items-center gap-2.5 rounded-full bg-lime-400 px-6 py-3 text-sm font-bold text-zinc-950 transition-opacity hover:opacity-85"
-              >
-                <Mail size={15} />
-                メールを送る
-              </a>
-              <p className="flex items-center gap-2 text-sm text-zinc-400">
-                <MapPin size={15} />
-                Miyazaki / Remote
-              </p>
-            </div>
-          </div>
-        </section>
-          ── */}
 
         {/* ── Footer ── */}
         <footer className="mx-auto max-w-7xl border-t border-zinc-200 px-6 py-8 md:px-10">
