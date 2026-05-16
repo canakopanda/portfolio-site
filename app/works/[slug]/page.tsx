@@ -162,10 +162,12 @@ export default async function WorkDetailPage({
                 Details
               </h3>
               <dl className="flex flex-col gap-5">
+                {!work.hideYear && (
                 <div>
                   <dt className="mb-1 text-xs text-zinc-400">Year</dt>
                   <dd className="text-sm font-semibold">{work.year}</dd>
                 </div>
+                )}
                 {work.client && (
                 <div>
                   <dt className="mb-1 text-xs text-zinc-400">Client</dt>

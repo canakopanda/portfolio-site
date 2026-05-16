@@ -14,6 +14,7 @@ export type Work = {
   tools: string[];
   images?: string[];
   video?: string;
+  hideYear?: boolean;
   subImages?: { label: string; src?: string }[];
 };
 
@@ -141,15 +142,16 @@ export const works: Work[] = [
     desc: "番組テロップ、ブライダル映像、イベント進行など、静止画にとどまらない表現も経験。",
     meta: "Movie / Telop / Event",
     year: "2007 — 2018",
-    client: "ブライダル・イベント・放送",
+    client: "",
     overview:
-      "映像テロップのデザインからブライダル向けスライドショー、イベント当日のオペレーションまで、動きのある表現と場の演出を幅広く担当しました。",
+      "映像テロップのデザインからブライダルでのエンドロール撮影、当日編集、イベント当日のオペレーションまで、動きのある表現と場の演出を幅広く担当しました。",
     process:
       "映像制作では音楽と映像のタイミング合わせを重視し、見る人の感情の流れを意識した構成を設計しました。イベントディレクションでは事前準備と当日のイレギュラー対応が重要な仕事でした。",
     result:
-      "ブライダル映像では感動体験を作り出すことへの責任と達成感を強く感じ、口コミによる紹介案件にもつながりました。",
-    tools: ["Premiere Pro", "After Effects", "Photoshop"],
+      "ブライダル映像では感動体験を作り出すことへの責任と達成感を強く感じ、お客様の笑顔を見るたびに大きなやりがいを感じていました。",
+    tools: ["Premiere Pro", "After Effects", "Photoshop", "EDIUS"],
     video: "/works/driver.mp4",
+    hideYear: true,
   },
 ];
 
