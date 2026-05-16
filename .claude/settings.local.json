@@ -16,7 +16,8 @@
       "Bash(gh --version)",
       "Bash(git add *)",
       "Bash(git rebase *)",
-      "Bash(GIT_EDITOR=true git rebase --continue)"
+      "Bash(GIT_EDITOR=true git rebase --continue)",
+      "Bash(grep -E \"\\\\.\\(jpg|png|jpeg|gif|webp\\)$\")"
     ]
   }
 }
