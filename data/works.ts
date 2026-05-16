@@ -33,7 +33,7 @@ export const works: Work[] = [
       "クライアントの販売目標や訴求ポイントをヒアリングし、視線誘導とCTAの配置を意識した設計を心がけました。テンプレートと素材のライブラリ化により品質と速度の両立を実現しました。",
     result:
       "毎月100点以上のクリエイティブを安定納品。バナーのクリック率改善やLP経由のコンバージョン向上に継続的に貢献しました。",
-    tools: ["Photoshop", "Illustrator", "HTML", "CSS"],
+    tools: ["Photoshop", "Illustrator", "HTML", "CSS", "ChatGPT Images 2.0", "Adobe Firefly"],
     images: ["/works/ec_001.jpg"],
     subImages: [
       { label: "Photoshop制作", src: "/works/ec-002.jpg" },
