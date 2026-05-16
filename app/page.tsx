@@ -294,6 +294,7 @@ export default function Portfolio() {
             ))}
           </div>
         </section>
+        ── */}
 
         {/* ── Contact
         <section id="contact" className="mx-auto max-w-7xl px-6 py-28 md:px-10">
