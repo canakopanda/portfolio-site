@@ -105,7 +105,7 @@ export default function Portfolio() {
               </div>
 
               <p className="mb-8 text-2xl font-semibold leading-relaxed md:text-[1.75rem]">
-                情報を整理し、見る人が迷わず理解できるデザインへ。
+                情報を整理し、迷わず理解できるデザインへ。
               </p>
 
               <div className="grid grid-cols-3 gap-4 border-t border-zinc-100 pt-8">
