@@ -32,8 +32,6 @@ export default function Navigation() {
             [
               ["Works", "#works"],
               ["Skills", "#skills"],
-              ["Career", "#career"],
-              ["Contact", "#contact"],
             ] as [string, string][]
           ).map(([label, href]) => (
             <a
