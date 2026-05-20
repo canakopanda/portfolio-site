@@ -15,7 +15,7 @@ export type Work = {
   images?: string[];
   video?: string;
   hideYear?: boolean;
-  subImages?: { label: string; src?: string }[];
+  subImages?: { label: string; src?: string; video?: string }[];
 };
 
 export const works: Work[] = [
@@ -157,6 +157,7 @@ export const works: Work[] = [
       { label: "ブライダル", src: "/works/end.jpg" },
       { label: "ディレクション", src: "/works/event.jpg" },
       { label: "プロジェクションマッピング", src: "/works/pro.jpg" },
+      { label: "Adobe Firefly", video: "/works/firefly.mp4" },
     ],
   },
 ];

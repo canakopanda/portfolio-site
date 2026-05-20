@@ -123,9 +123,18 @@ export default async function WorkDetailPage({
                 )}
                 <div
                   className="relative aspect-square overflow-hidden rounded-[1.5rem]"
-                  style={!sub.src ? { backgroundColor: work.tagColor + "0d" } : { backgroundColor: "#f4f4f0" }}
+                  style={{ backgroundColor: "#f4f4f0" }}
                 >
-                  {sub.src ? (
+                  {sub.video ? (
+                    <video
+                      src={sub.video}
+                      className="h-full w-full object-contain p-2"
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                    />
+                  ) : sub.src ? (
                     <Image
                       src={sub.src}
                       alt={sub.label || `${work.title} ${idx + 1}`}
